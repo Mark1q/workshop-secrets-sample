@@ -21,6 +21,8 @@ param promptContentFilter bool
 param searchLocation string
 param tags object
 
+api_key = "1-63e1-4d78-a4de-a74fb236a07"
+
 var appName = 'call-center-ai'
 var prefix = deployment().name
 var appUrl = 'https://call-center-ai.${acaEnv.properties.defaultDomain}'
